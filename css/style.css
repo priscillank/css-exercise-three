@@ -2,6 +2,20 @@
   box-sizing: border-box;
 }
 
+.arrow {
+  width: 20%;
+  float:right;
+  text-align:right;
+  padding-top:8%;
+  padding-right:5%;
+ }
+
+.arrow-left {
+  float:left;
+  text-align:left;
+  padding-left:15px;
+}
+
 body {
   background-color: #333;
   font-family: sans-serif;
@@ -14,62 +28,44 @@ body {
 }
 
 .content {
-  padding: 20px 0 20px 25px;
-  width:80%;
+   width:80%;
   float:left;
-  text-align: left;
+  text-alignt:left;
+  padding-left:5%;
+  padding-top:5%;
+  padding-bottom:5%;
 
 }
 
-nav {
-  margin: 0 auto;
-  padding: 15px 0 15px 10px;
-  position: fixed;
-  width: 420px;
-  background-color: #000000;
+.content h1 {
+  font-size:1.8em;
+  font-weight:bold;
 }
 
-.arrow-left {
-  text-align: left;
-  padding-left: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-
-}
-
-.restaurant-list {
-  padding-top: 60px;
-  width:100%;
-}
-
-.arrow {
-  width:20%;
-  padding-top: 25px;
-  padding-right: 25px;
-  float:right;
-  text-align:right;
+.content h3 {
+  font-size:1.4em;
+  line-height:1.8em;
 }
 
 .location {
   width:100%;
-  background-color: #aaa;
-  overflow: hidden;
-  border-bottom: 1px solid gray;
-}
-
-.location h1 {
-  font-size: 1.5em;
-  
-  font-weight: bold;
-  color:#000000;
-}
-
-.content h3 {
-  font-size: 1.2em;
-  line-height: 1.8em;
-  color:#000000;
+  background-color:#aaa;
+  overflow:hidden;
+  border-bottom:1px solid gray;
 }
 
 .location:hover {
   background-color:gray;
+}
+
+nav {
+  margin: 0 auto;
+  padding: 15px 0px 15px 0px;
+  position: fixed;
+  width: 420px;
+  background-color:black;
+}
+
+.restaurant-list {
+  padding-top: 50px;
 }
